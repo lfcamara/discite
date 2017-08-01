@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>Saiba</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Saiba</h1>
+        <form action="/result" method="POST" name="busca">
+            <input type="text" id="search" name="search" placeholder="Informe um curso, instituicao, cidade ou estado" required>
+            <select name="dataType" id="dataType" required>
+                <option value="curso">Curso</option>
+                <option value="instituicao">Instituicao</option>
+                <option value="cidade">Cidade</option>
+                <option value="estado">Estado</option>
+            </select>
+            <input type="submit" id="botao">
+        </form>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

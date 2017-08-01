@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: url(http://mastertest.com.br/blog/wp-content/uploads/2016/10/universidade-de-harvard-abre-inscricao-para-curso_620257.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Lato;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 72px;
+    text-align: center;
+}
+
+#search {
+    background-color: #f7f7f7;
+    font-size: 16px;
+    width: 90%;
+}
+
+#container {
+    margin: 180px auto;
+    width: 500px;
+}
+
+#botao {
+    margin: 10px 205px;
+}
+
+#add {
+    height: 25px;
+}
