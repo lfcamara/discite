@@ -1,0 +1,25 @@
+{
+  "name": "saiba",
+  "version": "1.0.0",
+  "description": "Projeto PIHC - Sistema de busca",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lfcamara/saiba.git"
+  },
+  "author": "Leonardo Camara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lfcamara/saiba/issues"
+  },
+  "homepage": "https://github.com/lfcamara/saiba#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.5"
+  }
+}
