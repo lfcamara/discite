@@ -1,26 +1,28 @@
 <html>
-    <head>
-        <title>Saiba</title>
-    </head>
-
+<head>
+    <title>SAIBA</title>
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
 <body>
-    <table>
+    <h1>RESULT PAGE</h1>
+    <section class="container">
+    <div class="table-responsive">
+      <table class="table table-striped table-condensed table-hover">
         <tr>
-            <th>Instituição</th>
-            <th>Região</th>
-            <th>Estado</th>
-            <th>Cidade</th>
-            <th>Curso</th>
+          <th>Instituição</th>
+          <th>Região</th>
+          <th>Estado</th>
+          <th>Cidade</th>
+          <th>Curso(s)</th>
         </tr>
-    </table>
+      </table>
+    </div>
+  </section>
+
+        <%= results %>
+
 </body>
-
 </html>
-
-    <% results.forEach(function(data){ %>
-    <li>
-        <%= data.campi[].cidade %>
-    </li>
-    <% }); %>
-
 

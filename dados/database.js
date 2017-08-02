@@ -4,20 +4,20 @@ module.exports = function() {
     mongoose.connect("mongodb://localhost/pihc");
 
     mongoose.connection.on('connected', function() {
-        console.log('mongo conectado');
+        console.log('Mongo conectado');
     });
 
     mongoose.connection.on('disconnected', function() {
-        console.log('mongo desconectado');
+        console.log('Mongo desconectado');
     });
 
     mongoose.connection.on('error', function() {
-        console.log('erro na conexão com mongo');
+        console.log('Erro na conexão com mongo');
     });
 
     process.on('SIGINT', function() {
         mongoose.connection.close(function() {
-            console.log('bye mongo');
+            console.log('Bye mongo!');
             process.exit(0);
         });
     });
