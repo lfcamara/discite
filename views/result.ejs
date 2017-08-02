@@ -17,11 +17,20 @@
           <th>Cidade</th>
           <th>Curso(s)</th>
         </tr>
+        <% if (type='campi.cursos'){ %>
+          <% for(var i=0; i < data.results.length; i++){ %>
+            <tr>
+              <td><%= data.results[i].instituicao %></td>
+              <td><%= data.results[i].regiao %></td>
+              <td><%= data.results[i].estado %></td>
+              <td><%= data.results[i].campi[i].cidade %></td>
+              <td><%= data.search %></td>
+            </tr>
+          <% } %>
+        <% } %>
       </table>
     </div>
   </section>
-
-        <%= results %>
 
 </body>
 </html>

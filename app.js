@@ -22,12 +22,13 @@ app.get("/", function(req, res) {
 app.get("/result", function(req, res) {
     var search = req.query.search;
     var type = req.query.dataType;
-    Data.find({ type: search }, function(err, results) {
+    Data.find({
+        [type]: search
+    }, function(err, results) {
         if (err) {
             console.log(err);
         } else {
-            res.render("result", { results: results });
-            console.log(results);
+            res.render("result", { data: { results: results, search: search } });
         }
     });
 });
