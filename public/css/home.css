@@ -1,0 +1,25 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url('/img/joshua-newton-319090.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Nunito;
+    text-align: justify;
+}
+
+#container {
+    width: 600px;
+    margin: 320px auto;
+}
+
+#searchBar {
+    width: 450px;
+}
+
+#botao {
+    width: 100px;
+    margin: 10px 250px;
+}
