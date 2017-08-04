@@ -1,1 +1,604 @@
-{ "_id": { "$oid": "590dd8cc79e513385c5c0c5a" }, "instituicao": "Universidade Estadual da Paraíba", "regiao": "Nordeste", "estado": "Paraíba", "campi": [{ "cursos": ["Farmácia", "Ciências Biológicas", "Odontologia", "Fisioterapia", "Educação Física", "Psicologia", "Enfermagem", "Administração", "Ciências Contábeis", "Jornalismo", "Serviço Social", "Direito", "Engenharia Sanitária e Ambiental", "Física", "Química", "Química Industrial", "Filosofia", "Geografia", "História", "Letras", "Pedagogia", "Sociologia"], "cidade": "Campina Grande", "campus": "I" }, { "cursos": ["Agroecologia"], "cidade": "Lagoa Seca", "campus": "II" }, { "cursos": ["Direito", "Geografia", "História", "Letras", "Pedagogia"], "cidade": "Guarabira", "campus": "III" }, { "cursos": ["Ciência Agrárias", "Letras"], "cidade": "Catolé do Rocha", "campus": "IV" }, { "cursos": ["Arquivologia", "Ciências Biológicas", "Relações Internacionais"], "cidade": "João Pessoa", "campus": "V" }, { "cursos": ["Matemática", "Ciências Contábeis", "Letras"], "cidade": "Monteiro", "campus": "VI" }, { "cursos": ["Administração", "Computação", "Ciências Exatas", "Física", "Matemática"], "cidade": "Patos", "campus": "VII" }, { "cursos": ["Engenharia Civil", "Física"], "cidade": "Araruna", "campus": "VIII" }], "__v": 0 } { "_id": { "$oid": "590ddfef3debe81e3cc2d8a6" }, "instituicao": "Universidade de São Paulo", "regiao": "Sudeste", "estado": "São Paulo", "campi": [{ "cursos": ["Administração", "Arquitetura e Urbanismo", "Artes Cênicas", "Artes Visuais", "Astronomia", "Audiovisual", "Bibliotecnomia", "Ciências Atuais", "Ciências Biológicas", "Ciências Biomédicas", "Ciências Contábeis", "Ciências da Computação", "Ciências da Natureza", "Ciências Sociais", "Design", "Direito", "Economia", "Editoração", "Educação Física", "Educomunicação", "Enfermagem", "Engenharia Ambiental", "Engenharia Civil", "Engenharia de Computação", "Engenharia de Materiais", "Engenharia de Minas", "Engenharia de Produção", "Engenharia Elétrica", "Engenharia Mecânica", "Engenharia Mecatrônica", "Engenharia Metalúrgica", "Engenharia Naval", "Engenharia Química", "Estatística", "Farmácia", "Filosofia", "Física", "Fisioterapia", "Fonoaudiologia", "Geofísica", "Geografia", "Geologia", "História", "Jornalismo", "Turismo", "Letras", "Marketing", "Matemática", "Medicina", "Medicina Veterinária", "Meteorologia", "Música", "Nutrição", "Oceanografia", "Odontologia", "Pedagogia", "Psicologia", "Publicidade e Propaganda", "Química", "Relações Internacionais", "Sistemas de Informação"], "cidade": "São Paulo" }, { "cursos": ["Administração", "Ciências Agrárias", "Ciências Biológicas", "Ciências dos Alimentos", "Economia", "Engenharia Agronômica", "Engenharia Florestal"], "cidade": "Piracicaba" }, { "cursos": ["Administração", "Ciências Biológicas", "Ciências Biomédicas", "Ciências Contábeis", "Direito", "Economia", "Economia Empresarial e Controladoria", "Educação Física", "Enfermagem", "Farmácia", "Fisioterapia", "Fonoaudiologia", "Medicina", "Música", "Odontologia", "Pedagogia", "Psicologia", "Química"], "cidade": "Ribeirão Preto" }, { "cursos": ["Arquitetura e Urbanismo", "Ciências da Computação", "Ciências Exatas", "Ciências Físicas e Biomoleculares", "Engenharia Aeronáutica", "Engenharia Ambiental", "Engenharia Civil", "Engenharia de Computação", "Engenharia de Produção", "Engenharia Elétrica", "Engenharia Mecânica", "Engenharia Mecatrônica", "Estatística", "Física", "Matemática", "Química", "Sistemas de Informação"], "cidade": "São Carlos" }, { "cursos": ["Engenharia Ambiental", "Engenharia Bioquímica", "Engenharia de Materiais", "Engenharia de Produção", "Engenharia Física", "Engenharia Química"], "cidade": "Lorena" }, { "cursos": ["Engenharia de Alimentos", "Engenharia de Biossistemas", "Medicina Veterinária", "Zootecnia"], "cidade": "Pirassununga" }, { "cursos": ["Engenharia de Petróleo"], "cidade": "Santos" }, { "cursos": ["Fonoaudiologia", "Odontologia"], "cidade": "Bauru" }], "__v": 0 } { "_id": { "$oid": "590de57caf1a993a88fb2417" }, "instituicao": "Universidade Federal do Amazonas", "regiao": "Norte", "estado": "Amazonas", "campi": [{ "cursos": ["Agronomia", "Engenharia Florestal", "Engenharia de Pesca", "Zootecnia", "Engenharia de Alimentos", "Biotecnologia", "Ciências Biológicas", "Ciências Naturais", "Educação Física", "Enfermagem", "Farmácia", "Fisioterapia", "Medicina", "Odontologia", "Arquitetura e Urbanismo", "Computação", "Design", "Engenharia Civil", "Engenharia da Computação", "Engenharia de Materiais", "Engenharia de Petróleo", "Engenharia de Produção", "Engenharia Elétrica", "Engenharia Mecânica", "Engenharia Química", "Estatística", "Física", "Geologia", "Matemática", "Química", "Sistemas de Informação", "Administração", "Arquivologia", "Artes Visuais", "Bibliotecnomia", "Ciências Contábeis", "Economia", "Ciências Sociais", "Jornalismo", "Direito", "Filosofia", "Geografia", "História", "Letras", "Música", "Pedagogia", "Psicologia", "Serviço Social"], "cidade": "Manaus" }, { "cursos": ["Administração", "Antropologia", "Ciências Agrárias", "Biologia", "Química", "Letras", "Pedagogia"], "cidade": "Benjamin Constant" }, { "cursos": ["Biotecnologia", "Biologia", "Química", "Matemática", "Física", "Enfermagem", "Fisioterapia", "Nutrição", "Medicina"], "cidade": "Coari" }, { "cursos": ["Agronomia", "Biologia", "Química", "Matemática", "Física", "Engenharia Ambiental", "Letras", "Pedagogia"], "cidade": "Humaitá" }, { "cursos": ["Agronomia", "Farmácia", "Biologia", "Química", "Matemática", "Física", "Engenharia de Produção", "Engenharia de Software", "Egenharia Sanitária", "Química Industrial", "Sistemas de Informação"], "cidade": "Itacoatiara" }, { "cursos": ["Administração", "Artes Visuais", "Jornalismo", "Educação Física", "Pedagogia", "Serviço Social", "Zootecnia"], "cidade": "Parintins" }], "__v": 0 } { "_id": { "$oid": "590dea4b4fc9e81a401aec3b" }, "instituicao": "Universidade de Brasília", "regiao": "Centro-Oeste", "estado": "Brasília", "campi": [{ "cursos": ["Enfermagem", "Farmácia", "Fisioterapia", "Fonoaudiologia", "Saúde Coletiva", "Terapia Ocupacional"], "cidade": "Ceilândia" }, { "cursos": ["Engenharia Aeroespacial", "Engenharia Automotiva", "Engenharia de Energia", "Engenharia de Software", "Engenharia Eletrônica"], "cidade": "Gama" }, { "cursos": ["Ciências Naturais", "Educação do Campo", "Gestão Ambiental", "Gestão do Agronegócio"], "cidade": "Planaltina" }, { "cursos": ["Administração", "Agronomia", "Arquitetura e Urbanismo", "Arquivologia", "Artes Cênicas", "Artes Plásticas", "Bibliotecnomia", "Ciência da Computação", "Ciência Política", "Ciências Ambientais", "Biologia", "Ciências Contábeis", "Economia", "Farmácia", "Ciências Sociais", "Jornalismo", "Design", "Direito", "Educação Física", "Enfermagem", "Engenharia Ambiental", "Engenharia Civil", "Engenharia da Computação", "Engenharia de Produção", "Engenharia Elétrica", "Engenharia Florestal", "Engenharia Mecânica", "Engenharia Mecatrônica", "Estatísiticas", "Filosofia", "Física", "Geofísica", "Geografia", "Geologia", "História", "Letras", "Matemática", "Medicina", "Medicina Veterinária", "Museologia", "Música", "Nutrição", "Odontologia", "Pedagogia", "Psicologia", "Química", "Relações Internacionais", "Serviço Social", "Turismo"], "cidade": "Darcy Ribeiro" }], "__v": 0 } { "_id": { "$oid": "590dfc19f70be02004198605" }, "instituicao": "Universidade Federal do Paraná", "regiao": "Sul", "estado": "Paraná", "campi": [{ "cidade": "Toledo" }, { "cursos": ["Ciências Exatas", "Engenharia Ambiental e Sanitária", "Engenharia Civil", "Engenharia de Aquicultura", "Oceanografia"], "cidade": "Pontal do Paraná" }, { "cursos": ["Agronomia", "Ciências Biológicas", "Ciências Exatas", "Computação", "Engenharia de Aquicultura", "Engenharia de Bioprocessos e Biotecnologia", "Engenharia de Energias Renováveis", "Medicina Veterinária"], "cidade": "Palotina" }, { "cursos": ["Administração Pública", "Artes", "Ciências", "Educação do Campo", "Educação Física", "Geografia", "Gestão Ambiental", "Linguagem e Comunicação", "Saúde Coletiva", "Serviço Social", "Tecnologia em Agroecologia", "Tecnologia em Gestão Imobiliária", "Tecnologia em Gestão de Turismo"], "cidade": "Matinhos" }, { "cursos": ["Ciências Exatas", "Computação", "Engenharia Agrícola", "Engenharia de Alimetos", "Engenharia de Produção"], "cidade": "Jandaia do Sul" }, { "cursos": ["Administração", "Agronomia", "Arquitetura e Urbanismo", "Artes Visuais", "Biomedicina", "Ciências Biológicas", "Ciência da Computação", "Ciências Contábeis", "Ciências Econômicas", "Ciências Sociais", "Design", "Direito", "Educação Física", "Enfermagem", "Engenharia Ambiental", "Engenharia de Bioprocessos e Biotecnologia", "Engenharia Cartográfica e de Agrimensura", "Engenharia Civil", "Engenharia Elétrica", "Engenharia Florestal", "Engenharia Industrial Madeireira", "Engenharia Mecânica", "Engenharia de Produção", "Engenharia Química", "Estatística", "Expressão Gráfica", "Farmácia", "Filosofia", "Física", "Fisioterapia", "Geografia", "Geologia", "História", "Jornalismo", "Letras", "Matemática", "Medicina", "Medicina Veterinária", "Música", "Nutrição", "Odontologia", "Pedagogia", "Psicologia", "Publicidade e Propaganda", "Química", "Relações Públicas", "Turismo", "Zootecnia"], "cidade": "Curitiba" }], "__v": 0 }
+{
+    "_id": {
+        "$oid": "590dd8cc79e513385c5c0c5a"
+    },
+    "instituicao": "Universidade Estadual da Paraíba",
+    "regiao": "Nordeste",
+    "estado": "Paraíba",
+    "campi": [{
+            "cursos": [
+                "Farmácia",
+                "Ciências Biológicas",
+                "Odontologia",
+                "Fisioterapia",
+                "Educação Física",
+                "Psicologia",
+                "Enfermagem",
+                "Administração",
+                "Ciências Contábeis",
+                "Jornalismo",
+                "Serviço Social",
+                "Direito",
+                "Engenharia Sanitária e Ambiental",
+                "Física",
+                "Química",
+                "Química Industrial",
+                "Filosofia",
+                "Geografia",
+                "História",
+                "Letras",
+                "Pedagogia",
+                "Sociologia"
+            ],
+            "cidade": "Campina Grande",
+            "campus": "I"
+        },
+        {
+            "cursos": [
+                "Agroecologia"
+            ],
+            "cidade": "Lagoa Seca",
+            "campus": "II"
+        },
+        {
+            "cursos": [
+                "Direito",
+                "Geografia",
+                "História",
+                "Letras",
+                "Pedagogia"
+            ],
+            "cidade": "Guarabira",
+            "campus": "III"
+        },
+        {
+            "cursos": [
+                "Ciência Agrárias",
+                "Letras"
+            ],
+            "cidade": "Catolé do Rocha",
+            "campus": "IV"
+        },
+        {
+            "cursos": [
+                "Arquivologia",
+                "Ciências Biológicas",
+                "Relações Internacionais"
+            ],
+            "cidade": "João Pessoa",
+            "campus": "V"
+        },
+        {
+            "cursos": [
+                "Matemática",
+                "Ciências Contábeis",
+                "Letras"
+            ],
+            "cidade": "Monteiro",
+            "campus": "VI"
+        },
+        {
+            "cursos": [
+                "Administração",
+                "Computação",
+                "Ciências Exatas",
+                "Física",
+                "Matemática"
+            ],
+            "cidade": "Patos",
+            "campus": "VII"
+        },
+        {
+            "cursos": [
+                "Engenharia Civil",
+                "Física"
+            ],
+            "cidade": "Araruna",
+            "campus": "VIII"
+        }
+    ],
+    "__v": 0
+} {
+    "_id": {
+        "$oid": "590ddfef3debe81e3cc2d8a6"
+    },
+    "instituicao": "Universidade de São Paulo",
+    "regiao": "Sudeste",
+    "estado": "São Paulo",
+    "campi": [{
+            "cursos": [
+                "Administração",
+                "Arquitetura e Urbanismo",
+                "Artes Cênicas",
+                "Artes Visuais",
+                "Astronomia",
+                "Audiovisual",
+                "Bibliotecnomia",
+                "Ciências Atuais",
+                "Ciências Biológicas",
+                "Ciências Biomédicas",
+                "Ciências Contábeis",
+                "Ciências da Computação",
+                "Ciências da Natureza",
+                "Ciências Sociais",
+                "Design",
+                "Direito",
+                "Economia",
+                "Editoração",
+                "Educação Física",
+                "Educomunicação",
+                "Enfermagem",
+                "Engenharia Ambiental",
+                "Engenharia Civil",
+                "Engenharia de Computação",
+                "Engenharia de Materiais",
+                "Engenharia de Minas",
+                "Engenharia de Produção",
+                "Engenharia Elétrica",
+                "Engenharia Mecânica",
+                "Engenharia Mecatrônica",
+                "Engenharia Metalúrgica",
+                "Engenharia Naval",
+                "Engenharia Química",
+                "Estatística",
+                "Farmácia",
+                "Filosofia",
+                "Física",
+                "Fisioterapia",
+                "Fonoaudiologia",
+                "Geofísica",
+                "Geografia",
+                "Geologia",
+                "História",
+                "Jornalismo",
+                "Turismo",
+                "Letras",
+                "Marketing",
+                "Matemática",
+                "Medicina",
+                "Medicina Veterinária",
+                "Meteorologia",
+                "Música",
+                "Nutrição",
+                "Oceanografia",
+                "Odontologia",
+                "Pedagogia",
+                "Psicologia",
+                "Publicidade e Propaganda",
+                "Química",
+                "Relações Internacionais",
+                "Sistemas de Informação"
+            ],
+            "cidade": "São Paulo"
+        },
+        {
+            "cursos": [
+                "Administração",
+                "Ciências Agrárias",
+                "Ciências Biológicas",
+                "Ciências dos Alimentos",
+                "Economia",
+                "Engenharia Agronômica",
+                "Engenharia Florestal"
+            ],
+            "cidade": "Piracicaba"
+        },
+        {
+            "cursos": [
+                "Administração",
+                "Ciências Biológicas",
+                "Ciências Biomédicas",
+                "Ciências Contábeis",
+                "Direito",
+                "Economia",
+                "Economia Empresarial e Controladoria",
+                "Educação Física",
+                "Enfermagem",
+                "Farmácia",
+                "Fisioterapia",
+                "Fonoaudiologia",
+                "Medicina",
+                "Música",
+                "Odontologia",
+                "Pedagogia",
+                "Psicologia",
+                "Química"
+            ],
+            "cidade": "Ribeirão Preto"
+        },
+        {
+            "cursos": [
+                "Arquitetura e Urbanismo",
+                "Ciências da Computação",
+                "Ciências Exatas",
+                "Ciências Físicas e Biomoleculares",
+                "Engenharia Aeronáutica",
+                "Engenharia Ambiental",
+                "Engenharia Civil",
+                "Engenharia de Computação",
+                "Engenharia de Produção",
+                "Engenharia Elétrica",
+                "Engenharia Mecânica",
+                "Engenharia Mecatrônica",
+                "Estatística",
+                "Física",
+                "Matemática",
+                "Química",
+                "Sistemas de Informação"
+            ],
+            "cidade": "São Carlos"
+        },
+        {
+            "cursos": [
+                "Engenharia Ambiental",
+                "Engenharia Bioquímica",
+                "Engenharia de Materiais",
+                "Engenharia de Produção",
+                "Engenharia Física",
+                "Engenharia Química"
+            ],
+            "cidade": "Lorena"
+        },
+        {
+            "cursos": [
+                "Engenharia de Alimentos",
+                "Engenharia de Biossistemas",
+                "Medicina Veterinária",
+                "Zootecnia"
+            ],
+            "cidade": "Pirassununga"
+        },
+        {
+            "cursos": [
+                "Engenharia de Petróleo"
+            ],
+            "cidade": "Santos"
+        },
+        {
+            "cursos": [
+                "Fonoaudiologia",
+                "Odontologia"
+            ],
+            "cidade": "Bauru"
+        }
+    ],
+    "__v": 0
+} {
+    "_id": {
+        "$oid": "590de57caf1a993a88fb2417"
+    },
+    "instituicao": "Universidade Federal do Amazonas",
+    "regiao": "Norte",
+    "estado": "Amazonas",
+    "campi": [{
+            "cursos": [
+                "Agronomia",
+                "Engenharia Florestal",
+                "Engenharia de Pesca",
+                "Zootecnia",
+                "Engenharia de Alimentos",
+                "Biotecnologia",
+                "Ciências Biológicas",
+                "Ciências Naturais",
+                "Educação Física",
+                "Enfermagem",
+                "Farmácia",
+                "Fisioterapia",
+                "Medicina",
+                "Odontologia",
+                "Arquitetura e Urbanismo",
+                "Computação",
+                "Design",
+                "Engenharia Civil",
+                "Engenharia da Computação",
+                "Engenharia de Materiais",
+                "Engenharia de Petróleo",
+                "Engenharia de Produção",
+                "Engenharia Elétrica",
+                "Engenharia Mecânica",
+                "Engenharia Química",
+                "Estatística",
+                "Física",
+                "Geologia",
+                "Matemática",
+                "Química",
+                "Sistemas de Informação",
+                "Administração",
+                "Arquivologia",
+                "Artes Visuais",
+                "Bibliotecnomia",
+                "Ciências Contábeis",
+                "Economia",
+                "Ciências Sociais",
+                "Jornalismo",
+                "Direito",
+                "Filosofia",
+                "Geografia",
+                "História",
+                "Letras",
+                "Música",
+                "Pedagogia",
+                "Psicologia",
+                "Serviço Social"
+            ],
+            "cidade": "Manaus"
+        },
+        {
+            "cursos": [
+                "Administração",
+                "Antropologia",
+                "Ciências Agrárias",
+                "Biologia",
+                "Química",
+                "Letras",
+                "Pedagogia"
+            ],
+            "cidade": "Benjamin Constant"
+        },
+        {
+            "cursos": [
+                "Biotecnologia",
+                "Biologia",
+                "Química",
+                "Matemática",
+                "Física",
+                "Enfermagem",
+                "Fisioterapia",
+                "Nutrição",
+                "Medicina"
+            ],
+            "cidade": "Coari"
+        },
+        {
+            "cursos": [
+                "Agronomia",
+                "Biologia",
+                "Química",
+                "Matemática",
+                "Física",
+                "Engenharia Ambiental",
+                "Letras",
+                "Pedagogia"
+            ],
+            "cidade": "Humaitá"
+        },
+        {
+            "cursos": [
+                "Agronomia",
+                "Farmácia",
+                "Biologia",
+                "Química",
+                "Matemática",
+                "Física",
+                "Engenharia de Produção",
+                "Engenharia de Software",
+                "Egenharia Sanitária",
+                "Química Industrial",
+                "Sistemas de Informação"
+            ],
+            "cidade": "Itacoatiara"
+        },
+        {
+            "cursos": [
+                "Administração",
+                "Artes Visuais",
+                "Jornalismo",
+                "Educação Física",
+                "Pedagogia",
+                "Serviço Social",
+                "Zootecnia"
+            ],
+            "cidade": "Parintins"
+        }
+    ],
+    "__v": 0
+} {
+    "_id": {
+        "$oid": "590dea4b4fc9e81a401aec3b"
+    },
+    "instituicao": "Universidade de Brasília",
+    "regiao": "Centro-Oeste",
+    "estado": "Brasília",
+    "campi": [{
+            "cursos": [
+                "Enfermagem",
+                "Farmácia",
+                "Fisioterapia",
+                "Fonoaudiologia",
+                "Saúde Coletiva",
+                "Terapia Ocupacional"
+            ],
+            "cidade": "Ceilândia"
+        },
+        {
+            "cursos": [
+                "Engenharia Aeroespacial",
+                "Engenharia Automotiva",
+                "Engenharia de Energia",
+                "Engenharia de Software",
+                "Engenharia Eletrônica"
+            ],
+            "cidade": "Gama"
+        },
+        {
+            "cursos": [
+                "Ciências Naturais",
+                "Educação do Campo",
+                "Gestão Ambiental",
+                "Gestão do Agronegócio"
+            ],
+            "cidade": "Planaltina"
+        },
+        {
+            "cursos": [
+                "Administração",
+                "Agronomia",
+                "Arquitetura e Urbanismo",
+                "Arquivologia",
+                "Artes Cênicas",
+                "Artes Plásticas",
+                "Bibliotecnomia",
+                "Ciência da Computação",
+                "Ciência Política",
+                "Ciências Ambientais",
+                "Biologia",
+                "Ciências Contábeis",
+                "Economia",
+                "Farmácia",
+                "Ciências Sociais",
+                "Jornalismo",
+                "Design",
+                "Direito",
+                "Educação Física",
+                "Enfermagem",
+                "Engenharia Ambiental",
+                "Engenharia Civil",
+                "Engenharia da Computação",
+                "Engenharia de Produção",
+                "Engenharia Elétrica",
+                "Engenharia Florestal",
+                "Engenharia Mecânica",
+                "Engenharia Mecatrônica",
+                "Estatísiticas",
+                "Filosofia",
+                "Física",
+                "Geofísica",
+                "Geografia",
+                "Geologia",
+                "História",
+                "Letras",
+                "Matemática",
+                "Medicina",
+                "Medicina Veterinária",
+                "Museologia",
+                "Música",
+                "Nutrição",
+                "Odontologia",
+                "Pedagogia",
+                "Psicologia",
+                "Química",
+                "Relações Internacionais",
+                "Serviço Social",
+                "Turismo"
+            ],
+            "cidade": "Darcy Ribeiro"
+        }
+    ],
+    "__v": 0
+} {
+    "_id": {
+        "$oid": "590dfc19f70be02004198605"
+    },
+    "instituicao": "Universidade Federal do Paraná",
+    "regiao": "Sul",
+    "estado": "Paraná",
+    "campi": [{
+            "cidade": "Toledo"
+        },
+        {
+            "cursos": [
+                "Ciências Exatas",
+                "Engenharia Ambiental e Sanitária",
+                "Engenharia Civil",
+                "Engenharia de Aquicultura",
+                "Oceanografia"
+            ],
+            "cidade": "Pontal do Paraná"
+        },
+        {
+            "cursos": [
+                "Agronomia",
+                "Ciências Biológicas",
+                "Ciências Exatas",
+                "Computação",
+                "Engenharia de Aquicultura",
+                "Engenharia de Bioprocessos e Biotecnologia",
+                "Engenharia de Energias Renováveis",
+                "Medicina Veterinária"
+            ],
+            "cidade": "Palotina"
+        },
+        {
+            "cursos": [
+                "Administração Pública",
+                "Artes",
+                "Ciências",
+                "Educação do Campo",
+                "Educação Física",
+                "Geografia",
+                "Gestão Ambiental",
+                "Linguagem e Comunicação",
+                "Saúde Coletiva",
+                "Serviço Social",
+                "Tecnologia em Agroecologia",
+                "Tecnologia em Gestão Imobiliária",
+                "Tecnologia em Gestão de Turismo"
+            ],
+            "cidade": "Matinhos"
+        },
+        {
+            "cursos": [
+                "Ciências Exatas",
+                "Computação",
+                "Engenharia Agrícola",
+                "Engenharia de Alimetos",
+                "Engenharia de Produção"
+            ],
+            "cidade": "Jandaia do Sul"
+        },
+        {
+            "cursos": [
+                "Administração",
+                "Agronomia",
+                "Arquitetura e Urbanismo",
+                "Artes Visuais",
+                "Biomedicina",
+                "Ciências Biológicas",
+                "Ciência da Computação",
+                "Ciências Contábeis",
+                "Ciências Econômicas",
+                "Ciências Sociais",
+                "Design",
+                "Direito",
+                "Educação Física",
+                "Enfermagem",
+                "Engenharia Ambiental",
+                "Engenharia de Bioprocessos e Biotecnologia",
+                "Engenharia Cartográfica e de Agrimensura",
+                "Engenharia Civil",
+                "Engenharia Elétrica",
+                "Engenharia Florestal",
+                "Engenharia Industrial Madeireira",
+                "Engenharia Mecânica",
+                "Engenharia de Produção",
+                "Engenharia Química",
+                "Estatística",
+                "Expressão Gráfica",
+                "Farmácia",
+                "Filosofia",
+                "Física",
+                "Fisioterapia",
+                "Geografia",
+                "Geologia",
+                "História",
+                "Jornalismo",
+                "Letras",
+                "Matemática",
+                "Medicina",
+                "Medicina Veterinária",
+                "Música",
+                "Nutrição",
+                "Odontologia",
+                "Pedagogia",
+                "Psicologia",
+                "Publicidade e Propaganda",
+                "Química",
+                "Relações Públicas",
+                "Turismo",
+                "Zootecnia"
+            ],
+            "cidade": "Curitiba"
+        }
+    ],
+    "__v": 0
+}

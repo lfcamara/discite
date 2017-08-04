@@ -37,13 +37,14 @@
   <h4> Nenhum resultado encontrado. Tente novamente! <br></h4>
   <h5>Certifique-se de selecionar a opção correta relacionada à sua busca.</h5>
 
-  <h1> ;( </h1>
+  <h1> ;( </h1>  
 
-<% } else if ([type] !== 'instituicao') { %>
+<% } else { %>
+  <% if (data.type == 'instituicao') { %>
 
   <h4>Resultados para <%= data.search %></h4>
 
-    <section class="container">
+  <section class="container">
     <div class="table-responsive">
       <table class="table table-bordered table-hover table-condensed">
         <tr>
@@ -62,12 +63,10 @@
               <td><%= data.search %></td>
             </tr>
           <% } %>
-      </table>
-    </div>
 
-  <% } else { %>
+<% } else { %>
 
-     <h4>Resultados para <%= data.search %></h4>
+<h4>Resultados para <%= data.search %></h4>
 
     <section class="container">
     <div class="table-responsive">
@@ -77,14 +76,19 @@
           <th>Cursos</th>
         </tr>
         <% for(var i=0; i < data.results.length; i++){ %>
-          <% for(var j=0; j < data.results.campi.length; j++) { %>
+          <% for(var j=0; j < data.results[i].campi.length; j++) { %>
         <tr>
-          <td><%= data.results[i].cidade[j] %></td>
-          <td><%= data.results[i].cursos[j] %></td>
+          <td><%= data.results[i].campi[j].cidade %></td>
+          <td><%= data.results[i].campi[j].cursos %></td>
         </tr>  
           <% } %>
-        <% } %>  
+        <% } %> 
+    
+      </table>
+    </div>
+ 
   <% } %>
+ <% } %> 
 
   </section>
 
