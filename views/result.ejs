@@ -39,8 +39,7 @@
 
   <h1> ;( </h1>  
 
-<% } else { %>
-  <% if (data.type == 'instituicao') { %>
+<% } else if (data.type !== 'instituicao'){ %>
 
   <h4>Resultados para <%= data.search %></h4>
 
@@ -52,17 +51,17 @@
           <th>Região</th>
           <th>Estado</th>
           <th>Cidade</th>
-          <th>Curso(s)</th>
         </tr>
           <% for(var i=0; i < data.results.length; i++){ %>
-            <tr>
+            <tr class='clickable-row' data-href='/result?search=<%= data.results[i].instituicao %>&dataType=instituicao'>
               <td><%= data.results[i].instituicao %></td>
               <td><%= data.results[i].regiao %></td>
               <td><%= data.results[i].estado %></td>
               <td><%= data.results[i].campi[i].cidade %></td>
-              <td><%= data.search %></td>
             </tr>
           <% } %>
+
+        <h5>Para mais informações sobre a instituição, clique sobre ela.</h5>
 
 <% } else { %>
 
@@ -85,13 +84,15 @@
         <% } %> 
     
       </table>
-    </div>
- 
+    </div> 
   <% } %>
- <% } %> 
-
   </section>
 
+<script
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="/js/result.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
