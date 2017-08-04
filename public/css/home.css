@@ -6,13 +6,19 @@ body {
     background-image: url('/img/baim-hanif-89800.jpg');
     background-size: cover;
     background-position: center;
-    font-family: Nunito;
     text-align: justify;
+}
+
+h1 {
+    font-family: 'Bellefair', serif;
+    font-size: 64px;
+    color: whitesmoke;
+    margin: 20px auto 210px 50px;
 }
 
 #container {
     width: 600px;
-    margin: 320px auto;
+    margin: 0 auto;
 }
 
 #searchBar {

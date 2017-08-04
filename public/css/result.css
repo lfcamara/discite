@@ -1,6 +1,10 @@
 body {
     background-image: url(/img/bedge_grunge.png);
-    font-family: Nunito;
+}
+
+#brand {
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
 }
 
 #searchBar {
