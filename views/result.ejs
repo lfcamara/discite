@@ -2,7 +2,7 @@
 <head>
     <title>SAIBA</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/css/result.css">
 </head>
 <body>
@@ -13,16 +13,16 @@
           <div class="navbar-header">
             <a class="navbar-brand" href="/">Nome</a>
           </div>
-          <form class="navbar-form navbar-right">
+          <form class="navbar-form navbar-right" action="/result">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Nova Busca">
+              <input type="text" class="form-control" name="search" id="searchBar" placeholder="Nova Busca">
               <select class="form-control" name="dataType" id="dataTypeSelect" required>
-                <option selected value="" disabled>Selecione</option>
+                <option selected value="" disabled>Pesquisar por...</option>
                 <option value="campi.cursos">Curso</option>
                 <option value="campi.cidade">Cidade</option>
                 <option value="estado">Estado</option>
                 <option value="regiao">Região</option>
-                <option value="instituicao">Instituicao</option>
+                <option value="instituicao">Instituição</option>
             </select>
             </div>
             <button type="submit" class="btn btn-default">Buscar</button>
@@ -32,10 +32,20 @@
     </nav>
   </header>
 
+<% if (data.results.length === 0){ %>
+
+  <h4> Nenhum resultado encontrado. Tente novamente! <br></h4>
+  <h5>Certifique-se de selecionar a opção correta relacionada à sua busca.</h5>
+
+  <h1> ;( </h1>
+
+<% } else if ([type] !== 'instituicao') { %>
+
+  <h4>Resultados para <%= data.search %></h4>
+
     <section class="container">
-    <h3>Resultados para</h3>
     <div class="table-responsive">
-      <table class="table table-striped table-condensed table-hover">
+      <table class="table table-bordered table-hover table-condensed">
         <tr>
           <th>Instituição</th>
           <th>Região</th>
@@ -43,7 +53,6 @@
           <th>Cidade</th>
           <th>Curso(s)</th>
         </tr>
-        <% if (type='campi.cursos'){ %>
           <% for(var i=0; i < data.results.length; i++){ %>
             <tr>
               <td><%= data.results[i].instituicao %></td>
@@ -53,9 +62,30 @@
               <td><%= data.search %></td>
             </tr>
           <% } %>
-        <% } %>
       </table>
     </div>
+
+  <% } else { %>
+
+     <h4>Resultados para <%= data.search %></h4>
+
+    <section class="container">
+    <div class="table-responsive">
+      <table class="table table-bordered table-hover table-condensed">
+        <tr>
+          <th>Cidade</th>
+          <th>Cursos</th>
+        </tr>
+        <% for(var i=0; i < data.results.length; i++){ %>
+          <% for(var j=0; j < data.results.campi.length; j++) { %>
+        <tr>
+          <td><%= data.results[i].cidade[j] %></td>
+          <td><%= data.results[i].cursos[j] %></td>
+        </tr>  
+          <% } %>
+        <% } %>  
+  <% } %>
+
   </section>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
